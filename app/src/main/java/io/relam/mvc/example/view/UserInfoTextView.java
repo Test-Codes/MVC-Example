@@ -2,7 +2,6 @@ package io.relam.mvc.example.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.widget.TextView;
 
 import java.util.Observable;
@@ -29,7 +28,6 @@ public class UserInfoTextView extends TextView implements Observer {
 
     @Override
     public void update(Observable observable, Object data) {
-        Log.d("MVC", "update : data : " + data);
         if (data instanceof User)
             setText(data.toString());
     }
