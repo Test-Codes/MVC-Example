@@ -1,4 +1,4 @@
-package io.relam.mvc.example;
+package io.realm.mvc.example;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

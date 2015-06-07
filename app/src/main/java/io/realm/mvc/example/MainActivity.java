@@ -1,4 +1,4 @@
-package io.relam.mvc.example;
+package io.realm.mvc.example;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,8 +6,8 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.EditText;
 
-import io.relam.mvc.example.model.User;
-import io.relam.mvc.example.view.UserInfoTextView;
+import io.realm.mvc.example.model.User;
+import io.realm.mvc.example.view.UserInfoTextView;
 
 
 public class MainActivity extends AppCompatActivity {

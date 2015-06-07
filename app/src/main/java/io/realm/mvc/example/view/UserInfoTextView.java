@@ -1,4 +1,4 @@
-package io.relam.mvc.example.view;
+package io.realm.mvc.example.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,7 +7,7 @@ import android.widget.TextView;
 import java.util.Observable;
 import java.util.Observer;
 
-import io.relam.mvc.example.model.User;
+import io.realm.mvc.example.model.User;
 
 /**
  * Created by TheFinestArtist on 6/7/15.

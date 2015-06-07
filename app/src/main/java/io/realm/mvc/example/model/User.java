@@ -1,4 +1,4 @@
-package io.relam.mvc.example.model;
+package io.realm.mvc.example.model;
 
 import java.util.Observable;
 

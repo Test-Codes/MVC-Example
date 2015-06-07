@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.relam.mvc.example">
+    package="io.realm.mvc.example">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="MVC Pattern"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
-            android:name=".MainActivity"
+            android:name="io.realm.mvc.example.MainActivity"
             android:label="MVC Pattern"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
