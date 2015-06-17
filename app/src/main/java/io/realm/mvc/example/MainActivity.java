@@ -12,10 +12,10 @@ import io.realm.mvc.example.view.UserInfoTextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    User user;
-    UserInfoTextView userInfoTextView;
-    EditText fullName;
-    EditText email;
+    private User user;
+    private UserInfoTextView userInfoTextView;
+    private EditText fullName;
+    private EditText email;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
